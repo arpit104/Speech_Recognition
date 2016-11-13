@@ -1,3 +1,9 @@
+%%
+% x = input speech signal
+% fs = sampling frequency
+% cntr = frame counter
+% threshold = energy threshold to be fixed by user
+%%
 function yy = vad(x,fs,cntr,threshold)
 x = x./(max(x));
 len = length(x);
