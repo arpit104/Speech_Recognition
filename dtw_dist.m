@@ -1,3 +1,10 @@
+%%
+% Dynamic Time Warping
+% % inputs %
+% a = first time series
+% b = second time series
+% % output %
+% DTW normalised dtw distance between the two time series
 function DTW = dtw_dist(a,b)
 a_siz = size(a);
 b_siz = size(b);
